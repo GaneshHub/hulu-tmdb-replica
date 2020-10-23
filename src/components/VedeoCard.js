@@ -11,7 +11,7 @@ const VedeoCard = forwardRef(({ movie }, ref) => {
         src={`${baseurls.images}${movie.backdrop_path || movie.poster_path}`}
         alt=""
       />
-      <h2>{movie.title || movie.original_name}</h2>
+      <h3>{movie.title || movie.original_name}</h3>
       <TextTruncate
         line={1}
         element="p"
