@@ -1,0 +1,12 @@
+/* .results{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+this will be overrideden by react flip , so we need to add below}  */
+
+.results > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

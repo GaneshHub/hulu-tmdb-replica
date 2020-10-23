@@ -1,0 +1,34 @@
+.vedeoCard{
+color: white;
+height: 300px;
+width: 400px;
+padding: 20px;
+transition: transform 100ms;
+}
+
+.vedeoCard:hover{
+    transform: scale(1.09);
+}
+.vedeoCard > img{
+    height: 200px;
+    width: 400px;
+    object-fit: contain;
+}
+
+.vedeoCard > h2{
+     padding-left: 20px; 
+}
+
+.vedeoCard > p{
+    padding-top: 10px;
+    padding-left: 20px; 
+}
+
+.vedeoCard_stats{
+    display: none;
+    padding-left: 20px;
+}
+
+.vedeoCard:hover > .vedeoCard_stats{
+    display: inline;
+}
